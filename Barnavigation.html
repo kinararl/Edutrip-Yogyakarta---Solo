@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogyakarta - Solo Edutrip 2025</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f8ff; }
+        .navbar { background: #0044cc; overflow: hidden; text-align: center; padding: 10px 0; }
+        .navbar a { display: inline-block; color: white; padding: 14px 20px; text-decoration: none; font-size: 18px; transition: 0.3s; }
+        .navbar a:hover { background: #0066ff; border-radius: 5px; }
+        .container { text-align: center; padding: 50px; }
+        h1 { color: #002366; }
+        p { font-size: 18px; color: #333; }
+        .content { display: none; padding: 20px; background-color: #ffffff; border-radius: 10px; margin: 20px auto; width: 80%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .active { display: block; }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.content').forEach(section => section.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('agama')">Agama</a>
+        <a href="#" onclick="showSection('ppkn')">PPKN</a>
+        <a href="#" onclick="showSection('ips')">IPS</a>
+        <a href="#" onclick="showSection('english')">English RW</a>
+        <a href="#" onclick="showSection('indonesia')">Bahasa Indonesia</a>
+        <a href="#" onclick="showSection('mandarin')">Mandarin</a>
+    </div>
+    
+    <div id="home" class="content active">
+        <h1>Welcome to Yogyakarta - Solo Edutrip 2025</h1>
+        <p>Jogja dan Solo adalah dua kota di Pulau Jawa. Jogja terkenal karena tempat-tempat wisatanya seperti Malioboro dan Candi Prambanan, sedangkan Solo dikenal dengan keraton dan batiknya yang cantik.</p>
+    </div>
+    
+    <div id="agama" class="content">
+        <h1>Gereja Santa Maria Assumpta Jogjakarta</h1>
+        <p>Gereja Maria Assumpta terletak di Yogyakarta. Gereja ini mulai berdiri pada tahun 1920, dan bangunan yang sekarang digunakan dibangun pada tahun 1984.</p>
+        <p>Jumlah umat di gereja ini sekitar 3200 orang. Mereka berasal dari berbagai wilayah di sekitar Yogyakarta.</p>
+        <p>Hal yang menarik dari gereja ini adalah adanya sumur di dalam lingkungan gereja. Selain itu, ada juga tempat khusus untuk pembaptisan bayi yang tidak dimiliki oleh semua gereja.</p>
+    </div>
+    
+    <div id="ppkn" class="content">
+        <h1>Candi Prambanan & Keraton Yogyakarta</h1>
+        <p>Candi Prambanan istimewa karena bentuknya tinggi dan memiliki ukiran relief yang indah. Letaknya juga tertata rapi dengan banyak candi kecil di sekitarnya.</p>
+        <p>Candi Prambanan bercorak Hindu dan menjulang tinggi, sedangkan Borobudur bercorak Buddha dan berbentuk stupa. Keduanya punya relief yang menceritakan kisah agama masing-masing.</p>
+        <p>Warisan arsitektur Prambanan memengaruhi bangunan lain lewat gaya menara dan reliefnya. Banyak bangunan budaya meniru bentuk dan hiasannya.</p>
+        <p>Budaya dan agama Hindu sangat berperan dalam pembangunan Prambanan. Nilainya terlihat pada bentuk, cerita, dan fungsi candi.</p>
+        <p>Kerajaan Yogyakarta ikut mendukung perjuangan kemerdekaan Indonesia. Banyak tokoh nasional lahir dan berkumpul di sana.</p>
+        <p>Keraton menjaga tradisi lewat upacara adat, pakaian, dan tarian Jawa. Budaya ini terus diajarkan ke generasi muda.</p>
+    </div>
+    
+    <div id="ips" class="content">
+        <h1>IPS Section</h1>
+        <p><strong>Wawancara Ibu Sumirah - Desa Wisata Pentingsari</strong></p>
+        <p><strong>Kinara:</strong>Apa pekerjaan Ibu sehari - hari di desa Wisata Penting Sari ini?</p>
+        <p><strong>Ibu Sumirah:</strong>Biasanya bekerja sebagai Ibu rumah tangga, dan kadang menemani Bapak yang bekerja sebagai petani.</p>
+        <p><strong>Kinara:</strong>Apa peran Ibu di masyarakat?</p>
+        <p><strong>Ibu Sumirah:</strong>Sebagai sumber padi utama desa, biasanya masyarakat membeli padi dari ladang yang Ibu dan Bapak miliki. </p>
+        <p><strong>Kinara:</strong>Apa tradisi keluarga Ibu serta tradisi masyarakat disini?</p>
+        <p><strong>Ibu Sumirah</strong>Biasanya Ibu dan keluarga makan malam bersama, serta mengadakan kumpul keluarga setiap malam. Tradisi masyarakat disini adalah selalu berkumpul bersama setiap ada acara apapun.</p>
+        <p><strong>Kinara:</strong> Bagaimana pengelolaan keuangan disini serta pengelolaan lingkungannya?</p>
+        <p><strong>Ibu Sumirah:</strong>Keadaan keuangan di desa ini kebanyakan stabil, tidak ada yang kekurangan dan pada berkecukupan, dan lingkungan disini juga sanbgat terjaga.</p>
+    </div>
+    
+    <div id="english" class="content">
+        <img src="Screenshot 2025-04-06 231726.png" alt="English Section Image">
+    </div>
+
+    <div id="indonesia" class="content">
+        <h1>Bahasa Indonesia</h1>
+        <p>Malioboro ramai dan penuh dengan pedagang serta wisatawan, terutama saat malam hari.</p>
+        <p>Di sana ada banyak makanan khas seperti gudeg, sate, dan jajanan murah di angkringan.</p>
+    </div>
+
+    <div id="mandarin" class="content">
+        <h1>Mandarin Section</h1>
+        <p><strong>你住在谁的家？</strong><br>我住在Bu Sumirah的家。</p>
+        <p><strong>他/她家有几口人？</strong><br>她家有三口人：她和两个儿子。</p>
+        <p><strong>他/她家有几个孩子？</strong><br>有两个。</p>
+        <p><strong>他们多大了？今年上几年级？</strong><br>两个儿子工作，她的岁不知道。</p>
+        <p><strong>他/她们做什么工作？</strong><br>他们都是种田的。</p>
+        <p><strong>他/她们喜欢吃什么？</strong><br>他们喜欢吃草莓。</p>
+        <p><strong>他/她们每天早上到晚上做什么？</strong><br>他们每天从早上到晚上都在工作。</p>
+        <p><strong>在那边你们看到了什么？做了什么？学了什么？</strong><br>在那边我们看到他们一家人一起工作。</p>
+    </div>
+</body>
+</html>
